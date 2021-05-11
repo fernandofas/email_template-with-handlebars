@@ -1,0 +1,318 @@
+/*ALL THE STYLES GO HERE*/
+@import "default";
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+  Ubuntu, Cantarell, "Arial", sans-serif, clean;
+$btnText: #fff;
+$reg_text: #000;
+$bg-color: #444545;
+$link: #000000;
+$width: 600px;
+$widthIn: 600px;
+$widthP: 100%;
+$border: medium none;
+
+/*Global Settings*/
+
+* {
+  -webkit-text-size-adjust: $widthP;
+  -ms-text-size-adjust: $widthP;
+}
+
+html,
+body {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  height: 100% !important;
+  font-family: $font-stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: $widthP;
+  height: $widthP !important;
+}
+img {
+  outline: none !important;
+  text-decoration: none !important;
+  border: 0 !important;
+}
+a img {
+  border: none !important;
+}
+
+.bannerimg {
+  width: $widthP !important;
+  height: auto !important;
+}
+
+table {
+  border-collapse: collapse !important;
+  border: 0;
+  padding: 0;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: normal;
+}
+.wrapper {
+  width: $widthP !important;
+  table-layout: fixed !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.widthPercentage {
+  width: $widthP;
+}
+
+.widthPixels {
+  width: $width;
+}
+
+/** Video MP4 CSS **/
+.video-wrapper {
+  display: none;
+}
+/*End of Global Settings*/
+
+/*Custom Global Settings*/
+.bodymaster {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  background-color: #ffffff;
+  font-family: $font-stack;
+  color: #444444;
+  mso-line-height-rule: exactly;
+}
+
+.tableContent {
+  width: $widthIn;
+}
+
+.tdPadding {
+  font-size: 0px;
+  line-height: 0px;
+  mso-line-height-rule: exactly;
+}
+
+.tdContent_1 {
+  font-family: $font-stack;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202020;
+  letter-spacing: 2px;
+  mso-line-height-rule: exactly;
+}
+
+.tdContent_2 {
+  font-family: $font-stack;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #444444;
+  text-align: center;
+  mso-line-height-rule: exactly;
+}
+
+/*Tables Buttons*/
+
+.tdPreContent {
+  background-color: #740380;
+  width: 240px !important;
+  height: 45px;
+  text-transform: uppercase;
+  font-family: $font-stack;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: none;
+  vertical-align: middle !important;
+  mso-line-height-rule: exactly;
+}
+
+.tdPreContent1 {
+  background-color: #000;
+  width: 160px;
+  height: 45px;
+  text-transform: uppercase;
+  font-family: $font-stack;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 14px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: none;
+  mso-line-height-rule: exactly;
+}
+
+.btn_settings {
+  text-decoration: none !important;
+}
+
+.btn_1 {
+  font-family: $font-stack;
+  width: $widthP;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 45px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  vertical-align: middle;
+  margin-bottom: 15px;
+  mso-line-height-rule: exactly;
+}
+/*End Buttons*/
+
+/*End of Custom Global Settings*/
+
+/*Master table starts here*/
+.tablelayout {
+  table-layout: fixed;
+}
+.fontfamily {
+  font-family: $font-stack;
+}
+/*Master table ends here*/
+
+/*Pre-header starts here*/
+.tablePreContent {
+  width: $widthIn;
+}
+.tdPreHeaderSettings {
+  font-family: $font-stack;
+  color: #444444;
+  font-size: 11px;
+  text-align: center;
+  mso-line-height-rule: exactly;
+}
+
+.preheaderLink {
+  font-family: $font-stack;
+  color: #444444;
+  font-size: 11px;
+  text-align: center;
+  text-decoration: underline;
+}
+/*Pre-header ends here*/
+
+/*Header starts here*/
+.imgHeaderStyle {
+  font-family: $font-stack;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000001;
+  line-height: 16px;
+  border: 0;
+  border: none;
+  display: block;
+  max-width: $width;
+  mso-line-height-rule: exactly;
+}
+/*Header ends here*/
+
+/*One Column block starts here*/
+.headingTop {
+  font-family: $font-stack;
+  font-size: 24px;
+  font-style: normal;
+  color: #202020;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  mso-line-height-rule: exactly;
+}
+
+/*One Column block ends here*/
+
+/*Two Columns block starts here*/
+
+.twoCol_width {
+  width: 285px;
+  background-color: #f2f2f2;
+}
+
+.twoCols_img1 {
+  display: block;
+  border: 0;
+  max-width: 241px;
+}
+
+.twoCols_img2 {
+  display: block;
+  border: 0;
+  max-width: 285px;
+}
+
+/*Two Columns block ends here*/
+
+/*Three Columns block starts here*/
+.threeCol_width {
+  width: 160px;
+}
+
+.threeCols_img1 {
+  display: block;
+  border: 0;
+  max-width: 160px;
+}
+
+.threeCols_img2 {
+  display: block;
+  border: 0;
+  max-width: 160px;
+}
+/*Three Columns block ends here*/
+
+/*Footer settings*/
+.widthBorder {
+  width: 600px;
+  border-top: solid 1px #cccccc;
+}
+
+.fontGeneral {
+  font-family: $font-stack;
+  color: #4a4a4a;
+  font-size: 11px;
+  text-align: center;
+  line-height: 16px;
+  mso-line-height-rule: exactly;
+}
+
+.fontLinkNoUnder {
+  color: #4a4a4a;
+  text-decoration: none;
+  border: none;
+}
+
+.fontBold {
+  font-weight: bold;
+  color: #4a4a4a;
+  text-decoration: none;
+  border: none;
+}
+
+.fontBoldUnder {
+  font-weight: bold;
+  color: #4a4a4a;
+  text-decoration: underline;
+  border: none;
+}
+/*Footer settings ends here*/

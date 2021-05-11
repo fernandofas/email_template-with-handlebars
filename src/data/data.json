@@ -1,0 +1,97 @@
+{
+  "diso_image_1": {
+    "VariableType": "Image",
+    "Value": "header1.jpg",
+    "Metadata": {}
+  },
+
+  "diso_image_2": {
+    "VariableType": "Image",
+    "Value": "img1.png",
+    "Metadata": {}
+  },
+
+  "diso_image_3": {
+    "VariableType": "Image",
+    "Value": "img2.png",
+    "Metadata": {}
+  },
+
+  "diso_image_4": {
+    "VariableType": "Image",
+    "Value": "img3.png",
+    "Metadata": {}
+  },
+
+  "diso_image_5": {
+    "VariableType": "Image",
+    "Value": "img4.png",
+    "Metadata": {}
+  },
+
+  "diso_image_6": {
+    "VariableType": "Image",
+    "Value": "img5.png",
+    "Metadata": {}
+  },
+
+  "diso_headline_1": {
+    "VariableType": "Text",
+    "Value": "img6.png",
+    "Metadata": {}
+  },
+
+  "diso_headline_2": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_3": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_4": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_5": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_6": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_7": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_8": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_9": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  },
+
+  "diso_headline_10": {
+    "VariableType": "Text",
+    "Value": "Headline lorem ipsum dolor sit amet",
+    "Metadata": {}
+  }
+}

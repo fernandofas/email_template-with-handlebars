@@ -1,0 +1,50 @@
+/*STYLE FOR MEDIA QUERIES ONLY*/
+@media only screen and (max-width: 600px) {
+  .rtable {
+    width: 100% !important;
+    table-layout: fixed;
+  }
+
+  .rtable tr {
+    height: auto !important;
+    display: block;
+  }
+
+  .contenttd {
+    max-width: 100% !important;
+    display: block;
+  }
+
+  .contenttd:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .hiddentds {
+    display: none;
+  }
+
+  .imgtable,
+  .imgtable table {
+    max-width: 100% !important;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .imgtable.btnset td {
+    display: inline-block;
+  }
+
+  .imgtable img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  table {
+    float: none;
+    table-layout: fixed;
+  }
+}

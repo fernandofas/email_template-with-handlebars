@@ -1,0 +1,37 @@
+{
+  "name": "gulp-email-templates",
+  "description": "Templating HTML emails using Gulp",
+  "version": "1.0.0",
+  "author": "Fernando Fas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-data": "^1.3.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-open": "^3.0.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^5.0.1",
+    "gulp-zip": "^5.0.2",
+    "include-media": "^1.4.9",
+    "mjml": "^4.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-scss": "^0.1.9"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {}
+}

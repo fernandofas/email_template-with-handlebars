@@ -1,0 +1,67 @@
+<!-- {# Button macro - https://www.autotelic.io/front-end-development/html-template-recipes/button #}
+
+{# label      (string)  : set button label #}
+{# modifier   (string)  : set button theme modifier #}
+{# context    (string)  : set a contextual class #}
+{# path       (string)  : creates a anchor button that links to another page #}
+{# isExternal (boolean) : if the link is external open in a new page and set nofollow #}
+{# isDisabled (boolean) : set button to be initially disabled #}
+{# size       (string)  : set button size modifier class #}
+{# attrs      (object)  : set button attributes #} -->
+
+{%- macro _button(label,
+				  modifier='',
+	  			  context='',
+				  path='',
+				  isExternal='',
+				  isDisabled='',
+				  size='',
+				  attrs='')
+-%}
+
+{%- if path -%}
+	<a href="{{ path }}"{% if isExternal %} rel="external nofollow" target="_blank"
+{% endif %}
+{%- else -%}
+	<button 
+{%- endif %}
+	class="button
+	{%- if modifier %} {{ modifier }}{%- endif -%}
+	{%- if size %} {{ size }}{%- endif -%}
+	{%- if context %} {{ context }}{% endif -%}"
+	{%- if isDisabled %} disabled{% endif -%}
+	{%- for name, item in attrs %} {{ name }}="{{ item }}"{% endfor -%}>{{ label }}
+{%- if path -%}
+	</a>
+{%- else -%}
+	</button>
+{% endif %}
+{% endmacro %}
+
+<!-- {# a default button #} -->
+
+{% macro default(label, context, path, isDisabled, size, attrs) -%}
+	{% call _button(label=label, context=context, path=path, isDisabled=isDisabled, size=size, attrs=attrs) -%}
+	{%- endcall %}
+{%- endmacro %}
+
+<!-- {# a cta button #} -->
+
+{% macro cta(label, context, path, isDisabled, size, attrs) %}
+	{% call _button(label=label, context=context, path=path, isDisabled=isDisabled, attrs=attrs) -%}
+	{%- endcall %}
+{% endmacro %}
+
+<!-- {# a form submit button #} -->
+
+{% macro submit(label, context, path, isDisabled, size, attrs) %}
+	{% call _button(label=label, context=context, path=path, isDisabled=isDisabled, attrs={"type" : "submit"}) -%}
+	{%- endcall %}
+{% endmacro %}
+
+<!-- {# an external link styled as a button button #} -->
+
+{% macro external(label, context, path, isDisabled, size, attrs) %}
+	{% call _button(label=label, context=context, path=path, isExternal=true, isDisabled=isDisabled, attrs=attrs) -%}
+	{%- endcall %}
+{% endmacro %}

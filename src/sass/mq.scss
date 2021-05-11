@@ -1,0 +1,235 @@
+/*STYLE FOR MEDIA QUERIES ONLY*/
+/*Mobile*/
+@media only screen and (max-width:600px) {
+  .maintable {
+      width: 100% !important;
+  }
+  .bannerimg {
+      width: 100% !important;
+      height: auto !important;
+  }
+  #preHead {
+      display: none !important;
+  }
+  .fl {
+      float: left !important;
+  }
+  .wr {
+      display: block !important;
+  }
+  .wf {
+      width: 100% !important;
+  }
+  .p {
+      padding: 20px;
+  }
+  .tpad {
+      padding-top: 23px !important;
+  }
+  .tpad2 {
+      padding-top: 22px !important;
+  }
+  .tpad3 {
+      padding-top: 12px !important;
+  }
+  .tpad4 {
+      padding-top: 9px !important;
+  }
+  .tpad5 {
+      padding-top: 10px !important;
+  }
+  .bpad {
+      padding-bottom: 10px !important;
+  }
+  .bpad1 {
+      padding-bottom: 10px !important;
+  }
+  .bpad2 {
+      padding-bottom: 15px !important;
+  }
+  .bpad3 {
+      padding-bottom: 22px !important;
+  }
+  .bpad4 {
+      padding-bottom: 12px !important;
+  }
+  .lpad {
+      padding-left: 20px !important;
+  }
+  .rpad {
+      padding-right: 20px !important;
+  }
+  .lrpad {
+      padding-left: 20px !important;
+      padding-right: 20px !important
+  }
+  .lrpad2 {
+      padding-left: 10px !important;
+      padding-right: 10px !important
+  }
+  .lrpad3 {
+      padding-left: 2px !important;
+      padding-right: 2px !important
+  }
+  .lrpad4 {
+      padding-left: 4px !important;
+      padding-right: 4px !important
+  }
+  .lrpad5 {
+      padding-left: 5px !important;
+      padding-right: 5px !important
+  }
+  .tp {
+      display: table-header-group!important;
+      width: 100%!important;
+  }
+  .bm {
+      display: table-footer-group!important;
+      width: 100%!important;
+  }
+  .lx-noborder {
+      border-left: none !important
+  }
+  .device {
+      width: 150px !important;
+  }
+  .dev {
+      max-width: 200px !important
+  }
+  .dev2 {
+      max-width: 350px !important
+  }
+  .hide {
+      display: none !important;
+  }
+  .delete {
+      width: 0px !important;
+      height: 0px !important;
+      font-size: 0px !important;
+      line-height: 0px !important;
+  }
+  .half {
+      width: 90% !important;
+      border-right: none !important;
+  }
+  .mob-text {
+      text-align: center !important;
+  }
+  .mob-line {
+      min-height: 1px !important
+  }
+  .mob {
+      width: 90%!important
+  }
+  .wdevice {
+      max-width: 285px !important
+  }
+  .wdevice2 {
+      max-width: 335px !important
+  }
+  .social {
+      text-align: center !important;
+  }
+  .textLeft {
+      text-align: left !important;
+  }
+  .no-line {
+      border-right: none!important
+  }
+  .u-hide-mob {
+      display: none !important;
+  }
+  #content-wrap {
+      width: 100% !important;
+      display: block !important;
+  }
+  .image3 {
+      max-width: 330px !important
+  }
+  .wdevice {
+      max-width: 285px !important
+  }
+  .text {
+      max-width: 350px !important
+  }
+  .l-col {
+      width: 100% !important;
+      display: block !important;
+  }
+  .u-mob-gutter {
+      width: 20px !important;
+  }
+  .u-hide-mob {
+      display: none !important;
+  }
+  .textCenter {
+      text-align: center !important;
+  }
+  .show {
+      display: block !important;
+      margin: 0 !important;
+      overflow: visible !important;
+      width: auto !important;
+      max-height: inherit !important;
+      font-size: inherit !important;
+      line-height: inherit !important
+  }
+  a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+  }
+  }
+  
+@media (-webkit-min-device-pixel-ratio: 0) and (min-device-width:1024px) {
+  .video-wrapper {
+      display: block!important;
+      width: 100%;
+      max-width: 580px;
+      height: auto
+  }
+  .video-fallback {
+      display: none!important;
+  }
+  }
+   @supports (-webkit-overflow-scrolling:touch) and (color:#ffffffff) {
+   div[class^=video-wrapper] {
+  display:block!important;
+  }
+   div[class^=video-fallback] {
+  display:none!important;
+  }
+  }
+  #MessageViewBody .video-wrapper {
+      display: block!important;
+  }
+  #MessageViewBody .video-fallback {
+      display: none!important;
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 0) and (min-device-width:375px) {
+  .video-wrapper {
+      display: block!important;
+  }
+  .video-fallback {
+      display: none!important;
+  }
+  #mob {
+      width: 100%;
+      height: auto !important
+  }
+  }
+  
+  /*For width:320*/
+    
+  @media only screen and (max-width:320px) {
+  .wdevice2 {
+      max-width: 280px !important
+  }
+  .SEdev {
+      max-width: 320px!important
+  }
+  }
